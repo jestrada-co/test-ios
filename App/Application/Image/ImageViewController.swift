@@ -33,4 +33,8 @@ class ImageViewController: UIViewController {
         print(viewController.lastNameTextField.text ?? "")
     }
     
+    @IBAction func reset(){
+        DefaultKey.reset()
+    }
+    
 }

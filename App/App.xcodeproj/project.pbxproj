@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB54196021A8CFAA0037BD6D /* DefaultKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB54195F21A8CFAA0037BD6D /* DefaultKey.swift */; };
+		DB54196321A8D01D0037BD6D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB54196221A8D01D0037BD6D /* WelcomeViewController.swift */; };
+		DB54196521A8D03C0037BD6D /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB54196421A8D03C0037BD6D /* Welcome.storyboard */; };
+		DB54196721A8D21F0037BD6D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB54196621A8D21F0037BD6D /* MainViewController.swift */; };
 		F81542692184A2A000A50969 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81542682184A2A000A50969 /* AppDelegate.swift */; };
 		F815426B2184A2A000A50969 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815426A2184A2A000A50969 /* ViewController.swift */; };
 		F815426E2184A2A000A50969 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F815426C2184A2A000A50969 /* Main.storyboard */; };
@@ -73,6 +77,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DB54195F21A8CFAA0037BD6D /* DefaultKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultKey.swift; sourceTree = "<group>"; };
+		DB54196221A8D01D0037BD6D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		DB54196421A8D03C0037BD6D /* Welcome.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		DB54196621A8D21F0037BD6D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		F81542652184A2A000A50969 /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F81542682184A2A000A50969 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F815426A2184A2A000A50969 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +124,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB54196121A8CFEC0037BD6D /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				DB54196221A8D01D0037BD6D /* WelcomeViewController.swift */,
+				DB54196421A8D03C0037BD6D /* Welcome.storyboard */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		F815425C2184A2A000A50969 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +157,7 @@
 		F81542672184A2A000A50969 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				DB54196121A8CFEC0037BD6D /* Welcome */,
 				F82132E1218DFBD2009CD85E /* Launch */,
 				F82132E4218DFC0B009CD85E /* Main */,
 				F8C4B2F4218E148100D9E1B5 /* Posts */,
@@ -190,6 +208,7 @@
 			children = (
 				F815427C2184DC2D00A50969 /* Array.swift */,
 				F88C2E4621A0827C0099ED8D /* KeyboardSafeArea.swift */,
+				DB54195F21A8CFAA0037BD6D /* DefaultKey.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -198,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				F815426C2184A2A000A50969 /* Main.storyboard */,
+				DB54196621A8D21F0037BD6D /* MainViewController.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -377,6 +397,7 @@
 				F8C4B303218E14B500D9E1B5 /* Posts.storyboard in Resources */,
 				F81542702184A2A100A50969 /* Assets.xcassets in Resources */,
 				F815426E2184A2A000A50969 /* Main.storyboard in Resources */,
+				DB54196521A8D03C0037BD6D /* Welcome.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,11 +436,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F82132DB218DDC46009CD85E /* TableViewDelegate.swift in Sources */,
+				DB54196321A8D01D0037BD6D /* WelcomeViewController.swift in Sources */,
 				F8C4B2FE218E148100D9E1B5 /* PostCell.swift in Sources */,
 				F815427B2184D2AD00A50969 /* TableViewDataSource.swift in Sources */,
 				F8D48480219F984A00EC8861 /* ImageViewController.swift in Sources */,
 				F815427D2184DC2D00A50969 /* Array.swift in Sources */,
 				F815426B2184A2A000A50969 /* ViewController.swift in Sources */,
+				DB54196721A8D21F0037BD6D /* MainViewController.swift in Sources */,
 				F83E638F218D322B005BB49A /* DetailsViewController.swift in Sources */,
 				F8C4B300218E148100D9E1B5 /* PostsTableViewDelegate.swift in Sources */,
 				F88C2E4721A0827C0099ED8D /* KeyboardSafeArea.swift in Sources */,
@@ -428,6 +451,7 @@
 				F8C4B2FF218E148100D9E1B5 /* PostsTableViewDataSource.swift in Sources */,
 				F8C4B301218E148100D9E1B5 /* PostsViewController.swift in Sources */,
 				F88C2E4521A0714A0099ED8D /* FormViewController.swift in Sources */,
+				DB54196021A8CFAA0037BD6D /* DefaultKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

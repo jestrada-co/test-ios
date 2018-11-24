@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mNG-UJ-jBv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mNG-UJ-jBv">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Tab Bar Controller-->
+        <!--Main View Controller-->
         <scene sceneID="jol-VB-KNF">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mNG-UJ-jBv" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="mNG-UJ-jBv" customClass="MainViewController" customModule="App" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="PHn-y4-e1W">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
@@ -22,11 +22,20 @@
                         <segue destination="dpU-xb-hzo" kind="relationship" relationship="viewControllers" id="eNW-5w-32G"/>
                         <segue destination="SCC-8e-yVg" kind="relationship" relationship="viewControllers" id="Niq-sQ-fsf"/>
                         <segue destination="8wU-LU-YTv" kind="relationship" relationship="viewControllers" id="9AU-T2-kPT"/>
+                        <segue destination="vlT-jY-czC" kind="show" identifier="showWelcome" id="neV-ll-eRY"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1uP-0A-nKC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2473" y="440"/>
+        </scene>
+        <!--Welcome-->
+        <scene sceneID="tS5-sH-SrZ">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Welcome" id="vlT-jY-czC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hXE-Mp-90L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3070" y="300"/>
         </scene>
         <!--Users-->
         <scene sceneID="lGK-Y9-hB5">
